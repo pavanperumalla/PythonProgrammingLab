@@ -1,0 +1,12 @@
+import random
+n=random.randint(1, 100)
+print("GUSS THE RANDOM NUMBER")
+while True:
+	x=int(input("guss the number"))
+	if(x<n):
+		print("too low")
+	elif(x>n):
+		print("too high")
+	elif(x==n):
+		print("you won")
+		break
