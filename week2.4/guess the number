@@ -1,0 +1,43 @@
+import random
+
+ 
+
+n=random.randint(1, 100)
+ 
+
+print("GUSS THE RANDOM NUMBER\n")
+
+
+print("\n you have chanceses\n")
+
+
+x=1
+
+
+while(x<=5):
+
+ 
+   
+
+	p=int(input("guss the number"))
+ 
+
+	if(p<n):
+ 
+
+		print("too low")
+ 
+
+	elif(p>n):
+ 
+
+		print("too high")
+ 
+
+	elif(p==n):
+ 
+
+		print("you won")
+ 
+
+		break
