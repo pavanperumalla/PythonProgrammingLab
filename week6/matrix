@@ -1,0 +1,51 @@
+r=int(input("enter the size: "))
+c=int(input("enter the size: "))
+matrix=[]
+for i in range(r):
+    r=[]
+    for j in range(c):
+        n=int(input (f"enter the elements in matrix{[i]}{[j]} :"))
+        r.append(n)
+    matrix.append(r)
+Programiz PRO ❯
+main.py
+print(matrix)
+r=int(input("enter the size: "))
+c=int(input("enter the size: "))
+matrix1=[]
+for i in range(r):
+    r=[]
+    for j in range(c):
+        n=int(input (f"enter the elements in matrix{[i]}{[j]} :"))
+        r.append(n)
+    matrix1.append(r)
+print(matrix1)
+ ans=[]week3.2
+print("it is addition matrix")
+for i in range(c):
+     row=[]
+     for j in range(c):
+         row.append(matrix[i][j]+matrix1[i][j])
+     ans.append(row)
+ print(ans)  
+
+week3.2
+mul=[]
+print("it is multiplication")
+for i in range(c):
+    row=[]
+    for j in range(r):
+        temp=0
+        for k in range(r):
+            temp+= matrix[i][k]*matrix1[k][j]
+        row.append(temp)
+    mul.append(row)
+print(mul)  
+
+
+
+
+
+
+
+
